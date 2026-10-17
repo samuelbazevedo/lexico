@@ -1,0 +1,323 @@
+LINHA:COL  ÁREA  CATEGORIA      TEXTO
+------------------------------------------------------------
+   11:8    A     PALAVRA_CHAVE  IDENTIFICATION
+   11:23   B     PALAVRA_CHAVE  DIVISION
+   11:31   B     PONTO          .
+   12:8    A     PALAVRA_CHAVE  PROGRAM-ID
+   12:18   B     PONTO          .
+   12:20   B     IDENT          YOUR-PROGRAM-NAME
+   12:37   B     PONTO          .
+   13:8    A     PALAVRA_CHAVE  DATA
+   13:13   B     PALAVRA_CHAVE  DIVISION
+   13:21   B     PONTO          .
+   14:8    A     PALAVRA_CHAVE  FILE
+   14:13   B     PALAVRA_CHAVE  SECTION
+   14:20   B     PONTO          .
+   15:8    A     PALAVRA_CHAVE  WORKING-STORAGE
+   15:24   B     PALAVRA_CHAVE  SECTION
+   15:31   B     PONTO          .
+   16:12   B     NUM            77
+   16:15   B     IDENT          WRK-VALOR1
+   16:32   B     PALAVRA_CHAVE  PIC
+   16:36   B     PIC            9(10)
+   16:42   B     PALAVRA_CHAVE  VALUES
+   16:49   B     NUM            10
+   16:51   B     PONTO          .
+   17:12   B     NUM            77
+   17:15   B     IDENT          WRK-VALOR2
+   17:32   B     PALAVRA_CHAVE  PIC
+   17:36   B     PIC            9(10)
+   17:42   B     PALAVRA_CHAVE  VALUES
+   17:49   B     PALAVRA_CHAVE  ZEROS
+   17:54   B     PONTO          .
+   18:12   B     NUM            77
+   18:15   B     IDENT          WRK-A
+   18:32   B     PALAVRA_CHAVE  PIC
+   18:36   B     PIC            9(2)
+   18:41   B     PALAVRA_CHAVE  VALUES
+   18:48   B     NUM            1
+   18:49   B     PONTO          .
+   19:12   B     NUM            77
+   19:15   B     IDENT          WRK-B
+   19:32   B     PALAVRA_CHAVE  PIC
+   19:36   B     PIC            9(2)
+   19:41   B     PALAVRA_CHAVE  VALUES
+   19:48   B     NUM            1
+   19:49   B     PONTO          .
+   20:12   B     NUM            77
+   20:15   B     IDENT          WRK-C
+   20:32   B     PALAVRA_CHAVE  PIC
+   20:36   B     PIC            9(2)
+   20:41   B     PALAVRA_CHAVE  VALUES
+   20:48   B     PALAVRA_CHAVE  ZEROS
+   20:53   B     PONTO          .
+   22:12   B     NUM            01
+   22:15   B     IDENT          WRK-TOTAIS
+   22:25   B     PONTO          .
+   23:15   B     NUM            05
+   23:18   B     IDENT          WRK-TOTAL
+   23:32   B     PALAVRA_CHAVE  PIC
+   23:36   B     PIC            9(10)
+   23:42   B     PALAVRA_CHAVE  VALUE
+   23:48   B     NUM            19
+   23:50   B     PONTO          .
+   25:8    A     PALAVRA_CHAVE  PROCEDURE
+   25:18   B     PALAVRA_CHAVE  DIVISION
+   25:26   B     PONTO          .
+   26:8    A     IDENT          MAIN-PROCEDURE
+   26:22   B     PONTO          .
+   27:12   B     PALAVRA_CHAVE  DISPLAY
+   27:20   B     ALFA           "===== start ======="
+   27:41   B     PONTO          .
+   28:12   B     PALAVRA_CHAVE  MOVE
+   28:17   B     NUM            20
+   28:20   B     PALAVRA_CHAVE  TO
+   28:23   B     IDENT          WRK-VALOR2
+   28:33   B     PONTO          .
+   29:12   B     PALAVRA_CHAVE  DISPLAY
+   29:20   B     ALFA           "MOVE 20 TO WRK-VALOR2 -->"
+   29:48   B     IDENT          WRK-VALOR2
+   29:58   B     PONTO          .
+   31:12   B     PALAVRA_CHAVE  MOVE
+   31:17   B     IDENT          WRK-VALOR1
+   31:28   B     PALAVRA_CHAVE  TO
+   31:31   B     IDENT          WRK-VALOR2
+   31:41   B     PONTO          .
+   32:12   B     PALAVRA_CHAVE  DISPLAY
+   32:20   B     ALFA           "MOVE WRK-VALOR1 TO WRK-VALOR2 -->"
+   32:56   B     IDENT          WRK-VALOR2
+   32:66   B     PONTO          .
+   34:12   B     PALAVRA_CHAVE  MOVE
+   34:17   B     NUM            70
+   34:20   B     PALAVRA_CHAVE  TO
+   34:23   B     IDENT          WRK-VALOR1
+   34:34   B     IDENT          WRK-VALOR2
+   34:44   B     PONTO          .
+   35:12   B     PALAVRA_CHAVE  DISPLAY
+   35:20   B     ALFA           "MOVE 70 TO WRK-VALOR1 WRK-VALOR2 -->"
+   35:59   B     IDENT          WRK-VALOR2
+   35:69   B     PONTO          .
+   37:12   B     PALAVRA_CHAVE  MOVE
+   37:17   B     IDENT          WRK-TOTAL
+   37:27   B     PALAVRA_CHAVE  OF
+   37:30   B     IDENT          WRK-TOTAIS
+   37:41   B     PALAVRA_CHAVE  TO
+   37:44   B     IDENT          WRK-VALOR2
+   37:54   B     PONTO          .
+   38:12   B     PALAVRA_CHAVE  DISPLAY
+   38:20   B     ALFA           "MOVE WRK-TOTAL OF WRK-TOTAIS TO WRK-VALOR2. -->"
+   39:22   B     IDENT          WRK-VALOR2
+   39:32   B     PONTO          .
+   41:12   B     PALAVRA_CHAVE  DISPLAY
+   41:20   B     ALFA           "--------"
+   41:30   B     PONTO          .
+   42:12   B     PALAVRA_CHAVE  DISPLAY
+   42:20   B     ALFA           "A = 1, B = 1, C = 1"
+   42:41   B     PONTO          .
+   44:12   B     PALAVRA_CHAVE  DISPLAY
+   44:20   B     ALFA           " "
+   44:23   B     PONTO          .
+   45:12   B     PALAVRA_CHAVE  ADD
+   45:16   B     NUM            1
+   45:18   B     NUM            1
+   45:20   B     PALAVRA_CHAVE  TO
+   45:23   B     IDENT          WRK-A
+   45:28   B     PONTO          .
+   46:12   B     PALAVRA_CHAVE  DISPLAY
+   46:20   B     ALFA           "ADD B C TO A (A = B + C + A) -->"
+   46:55   B     IDENT          WRK-A
+   46:60   B     PONTO          .
+   48:12   B     PALAVRA_CHAVE  MOVE
+   48:17   B     NUM            1
+   48:19   B     PALAVRA_CHAVE  TO
+   48:22   B     IDENT          WRK-A
+   48:27   B     PONTO          .
+   49:12   B     PALAVRA_CHAVE  ADD
+   49:16   B     NUM            1
+   49:18   B     PALAVRA_CHAVE  TO
+   49:21   B     IDENT          WRK-A
+   49:27   B     IDENT          WRK-B
+   49:32   B     PONTO          .
+   50:12   B     PALAVRA_CHAVE  DISPLAY
+   50:20   B     ALFA           " "
+   50:23   B     PONTO          .
+   51:12   B     PALAVRA_CHAVE  DISPLAY
+   51:20   B     ALFA           "ADD 1 TO A B (A = A + 1; B = B + 1) -->"
+   52:12   B     PALAVRA_CHAVE  DISPLAY
+   52:20   B     ALFA           "A= "
+   52:26   B     IDENT          WRK-A
+   52:32   B     ALFA           " , B= "
+   52:41   B     IDENT          WRK-B
+   52:46   B     PONTO          .
+   54:12   B     PALAVRA_CHAVE  DISPLAY
+   54:20   B     ALFA           " "
+   54:23   B     PONTO          .
+   55:12   B     PALAVRA_CHAVE  ADD
+   55:16   B     NUM            1
+   55:18   B     NUM            1
+   55:20   B     PALAVRA_CHAVE  GIVING
+   55:27   B     IDENT          WRK-A
+   55:32   B     PONTO          .
+   56:12   B     PALAVRA_CHAVE  DISPLAY
+   56:20   B     ALFA           "ADD B C GIVING A (A = B + C) -->"
+   56:55   B     IDENT          WRK-A
+   56:60   B     PONTO          .
+   58:12   B     PALAVRA_CHAVE  DISPLAY
+   58:20   B     ALFA           "============ SUBTRACT ============= "
+   58:58   B     PONTO          .
+   59:12   B     PALAVRA_CHAVE  MOVE
+   59:17   B     NUM            99
+   59:20   B     PALAVRA_CHAVE  TO
+   59:23   B     IDENT          WRK-A
+   59:28   B     PONTO          .
+   60:12   B     PALAVRA_CHAVE  MOVE
+   60:17   B     NUM            0
+   60:19   B     PALAVRA_CHAVE  TO
+   60:22   B     IDENT          WRK-B
+   60:27   B     PONTO          .
+   61:12   B     PALAVRA_CHAVE  DISPLAY
+   61:20   B     ALFA           "A= 99, B= 0"
+   61:33   B     PONTO          .
+   62:12   B     PALAVRA_CHAVE  SUBTRACT
+   62:21   B     NUM            30
+   62:24   B     NUM            23
+   62:27   B     PALAVRA_CHAVE  FROM
+   62:32   B     IDENT          WRK-A
+   63:27   B     PALAVRA_CHAVE  GIVING
+   63:34   B     IDENT          WRK-B
+   63:39   B     PONTO          .
+   64:12   B     PALAVRA_CHAVE  DISPLAY
+   64:20   B     ALFA           "SUBTRACT 30 23 FROM A GIVING B.-->"
+   65:12   B     PALAVRA_CHAVE  DISPLAY
+   65:20   B     ALFA           "A= "
+   65:26   B     IDENT          WRK-A
+   65:32   B     ALFA           " , B= "
+   65:41   B     IDENT          WRK-B
+   65:46   B     PONTO          .
+   67:12   B     PALAVRA_CHAVE  DISPLAY
+   67:20   B     ALFA           "============ MULTIPLY ============= "
+   67:58   B     PONTO          .
+   68:12   B     PALAVRA_CHAVE  MOVE
+   68:17   B     NUM            40
+   68:20   B     PALAVRA_CHAVE  TO
+   68:23   B     IDENT          WRK-A
+   68:28   B     PONTO          .
+   69:12   B     PALAVRA_CHAVE  MOVE
+   69:17   B     NUM            0
+   69:19   B     PALAVRA_CHAVE  TO
+   69:22   B     IDENT          WRK-B
+   69:27   B     PONTO          .
+   70:12   B     PALAVRA_CHAVE  DISPLAY
+   70:20   B     ALFA           "A= 40, B= 0"
+   70:33   B     PONTO          .
+   71:12   B     PALAVRA_CHAVE  MULTIPLY
+   71:21   B     NUM            2
+   71:23   B     PALAVRA_CHAVE  BY
+   71:26   B     IDENT          WRK-A
+   71:31   B     PONTO          .
+   72:12   B     PALAVRA_CHAVE  DISPLAY
+   72:20   B     ALFA           "MULTIPLY A BY 2 -->"
+   73:12   B     PALAVRA_CHAVE  DISPLAY
+   73:20   B     ALFA           "A= "
+   73:26   B     IDENT          WRK-A
+   73:32   B     ALFA           " , B= "
+   73:41   B     IDENT          WRK-B
+   73:46   B     PONTO          .
+   75:12   B     PALAVRA_CHAVE  DISPLAY
+   75:20   B     ALFA           "============ MULTIPLY ============= "
+   75:58   B     PONTO          .
+   76:12   B     PALAVRA_CHAVE  MOVE
+   76:17   B     NUM            40
+   76:20   B     PALAVRA_CHAVE  TO
+   76:23   B     IDENT          WRK-A
+   76:28   B     PONTO          .
+   77:12   B     PALAVRA_CHAVE  MOVE
+   77:17   B     NUM            0
+   77:19   B     PALAVRA_CHAVE  TO
+   77:22   B     IDENT          WRK-B
+   77:27   B     PONTO          .
+   78:12   B     PALAVRA_CHAVE  DISPLAY
+   78:20   B     ALFA           "A= 40, B= 0"
+   78:33   B     PONTO          .
+   79:12   B     PALAVRA_CHAVE  MULTIPLY
+   79:21   B     NUM            2
+   79:23   B     PALAVRA_CHAVE  BY
+   79:26   B     IDENT          WRK-A
+   79:32   B     PALAVRA_CHAVE  GIVING
+   79:39   B     IDENT          WRK-B
+   79:44   B     PONTO          .
+   80:12   B     PALAVRA_CHAVE  DISPLAY
+   80:20   B     ALFA           "MULTIPLY A BY 2 GIVING B.-->"
+   81:12   B     PALAVRA_CHAVE  DISPLAY
+   81:20   B     ALFA           "A= "
+   81:26   B     IDENT          WRK-A
+   81:32   B     ALFA           " , B= "
+   81:41   B     IDENT          WRK-B
+   81:46   B     PONTO          .
+   83:12   B     PALAVRA_CHAVE  DISPLAY
+   83:20   B     ALFA           "============ DIVIDE ============="
+   83:55   B     PONTO          .
+   84:12   B     PALAVRA_CHAVE  MOVE
+   84:17   B     NUM            81
+   84:20   B     PALAVRA_CHAVE  TO
+   84:23   B     IDENT          WRK-A
+   84:28   B     PONTO          .
+   85:12   B     PALAVRA_CHAVE  MOVE
+   85:17   B     NUM            0
+   85:19   B     PALAVRA_CHAVE  TO
+   85:22   B     IDENT          WRK-B
+   85:27   B     PONTO          .
+   86:12   B     PALAVRA_CHAVE  MOVE
+   86:17   B     NUM            0
+   86:19   B     PALAVRA_CHAVE  TO
+   86:22   B     IDENT          WRK-C
+   86:27   B     PONTO          .
+   87:12   B     PALAVRA_CHAVE  DISPLAY
+   87:20   B     ALFA           "A= 80, B= 0"
+   87:33   B     PONTO          .
+   88:12   B     PALAVRA_CHAVE  DIVIDE
+   88:19   B     IDENT          WRK-A
+   88:25   B     PALAVRA_CHAVE  BY
+   88:28   B     NUM            2
+   88:30   B     PALAVRA_CHAVE  GIVING
+   88:37   B     IDENT          WRK-B
+   88:43   B     PALAVRA_CHAVE  REMAINDER
+   88:53   B     IDENT          WRK-C
+   88:58   B     PONTO          .
+   89:12   B     PALAVRA_CHAVE  DISPLAY
+   89:20   B     ALFA           "DIVIDE A BY 2 GIVING B REMAINDER C .-->"
+   90:12   B     PALAVRA_CHAVE  DISPLAY
+   90:20   B     ALFA           "A= "
+   90:26   B     IDENT          WRK-A
+   90:32   B     ALFA           " , B= "
+   90:41   B     IDENT          WRK-B
+   90:47   B     ALFA           " , C= "
+   90:56   B     IDENT          WRK-C
+   90:61   B     PONTO          .
+   93:12   B     PALAVRA_CHAVE  DISPLAY
+   93:20   B     ALFA           " "
+   93:23   B     PONTO          .
+   94:12   B     PALAVRA_CHAVE  MOVE
+   94:17   B     NUM            99
+   94:20   B     PALAVRA_CHAVE  TO
+   94:23   B     IDENT          WRK-A
+   94:28   B     PONTO          .
+   95:12   B     PALAVRA_CHAVE  ADD
+   95:16   B     NUM            1
+   95:18   B     PALAVRA_CHAVE  TO
+   95:21   B     IDENT          WRK-A
+   96:12   B     IDENT          ON
+   96:15   B     IDENT          SIZE
+   96:20   B     IDENT          ERROR
+   97:15   B     PALAVRA_CHAVE  DISPLAY
+   97:23   B     ALFA           "ON SIZE ERROR -->"
+   97:43   B     IDENT          WRK-A
+   97:48   B     PONTO          .
+   99:13   B     PALAVRA_CHAVE  STOP
+   99:18   B     PALAVRA_CHAVE  RUN
+   99:21   B     PONTO          .
+  100:8    A     PALAVRA_CHAVE  END
+  100:12   B     PALAVRA_CHAVE  PROGRAM
+  100:20   B     IDENT          YOUR-PROGRAM-NAME
+  100:37   B     PONTO          .
+  101:1    B     EOF            

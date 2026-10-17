@@ -1,0 +1,81 @@
+LINHA:COL  ÁREA  CATEGORIA      TEXTO
+------------------------------------------------------------
+    5:8    A     PALAVRA_CHAVE  IDENTIFICATION
+    5:23   B     PALAVRA_CHAVE  DIVISION
+    5:31   B     PONTO          .
+    6:8    A     PALAVRA_CHAVE  PROGRAM-ID
+    6:18   B     PONTO          .
+    6:20   B     IDENT          COPIA
+    6:25   B     PONTO          .
+    7:8    A     PALAVRA_CHAVE  DATA
+    7:13   B     PALAVRA_CHAVE  DIVISION
+    7:21   B     PONTO          .
+    8:8    A     PALAVRA_CHAVE  WORKING-STORAGE
+    8:24   B     PALAVRA_CHAVE  SECTION
+    8:31   B     PONTO          .
+    4:8    A     NUM            01   [CLIENTE.cpy]
+    4:12   B     IDENT          REG-CLIENTE   [CLIENTE.cpy]
+    4:23   B     PONTO          .   [CLIENTE.cpy]
+    5:12   B     NUM            05   [CLIENTE.cpy]
+    5:15   B     IDENT          CLI-CODIGO   [CLIENTE.cpy]
+    5:32   B     PALAVRA_CHAVE  PIC   [CLIENTE.cpy]
+    5:36   B     PIC            9(5)   [CLIENTE.cpy]
+    5:40   B     PONTO          .   [CLIENTE.cpy]
+    6:12   B     NUM            05   [CLIENTE.cpy]
+    6:15   B     IDENT          CLI-NOME   [CLIENTE.cpy]
+    6:32   B     PALAVRA_CHAVE  PIC   [CLIENTE.cpy]
+    6:36   B     PIC            X(20)   [CLIENTE.cpy]
+    6:41   B     PONTO          .   [CLIENTE.cpy]
+    7:12   B     NUM            05   [CLIENTE.cpy]
+    7:15   B     IDENT          CLI-UF   [CLIENTE.cpy]
+    7:32   B     PALAVRA_CHAVE  PIC   [CLIENTE.cpy]
+    7:36   B     PIC            XX   [CLIENTE.cpy]
+    7:38   B     PONTO          .   [CLIENTE.cpy]
+    8:12   B     NUM            05   [CLIENTE.cpy]
+    8:15   B     IDENT          CLI-SALDO   [CLIENTE.cpy]
+    8:32   B     PALAVRA_CHAVE  PIC   [CLIENTE.cpy]
+    8:36   B     PIC            9(6)V99   [CLIENTE.cpy]
+    8:43   B     PONTO          .   [CLIENTE.cpy]
+    9:12   B     NUM            05   [CLIENTE.cpy]
+    9:15   B     IDENT          CLI-STATUS   [CLIENTE.cpy]
+    9:32   B     PALAVRA_CHAVE  PIC   [CLIENTE.cpy]
+    9:36   B     PIC            X   [CLIENTE.cpy]
+    9:37   B     PONTO          .   [CLIENTE.cpy]
+   10:15   B     NUM            88   [CLIENTE.cpy]
+   10:18   B     IDENT          CLI-ATIVO   [CLIENTE.cpy]
+   10:42   B     PALAVRA_CHAVE  VALUE   [CLIENTE.cpy]
+   10:48   B     ALFA           "A"   [CLIENTE.cpy]
+   10:51   B     PONTO          .   [CLIENTE.cpy]
+   11:15   B     NUM            88   [CLIENTE.cpy]
+   11:18   B     IDENT          CLI-INATIVO   [CLIENTE.cpy]
+   11:42   B     PALAVRA_CHAVE  VALUE   [CLIENTE.cpy]
+   11:48   B     ALFA           "I"   [CLIENTE.cpy]
+   11:51   B     PONTO          .   [CLIENTE.cpy]
+   12:12   B     NUM            05   [CLIENTE.cpy]
+   12:15   B     PALAVRA_CHAVE  FILLER   [CLIENTE.cpy]
+   12:32   B     PALAVRA_CHAVE  PIC   [CLIENTE.cpy]
+   12:36   B     PIC            X(4)   [CLIENTE.cpy]
+   12:40   B     PONTO          .   [CLIENTE.cpy]
+   10:8    A     NUM            77
+   10:12   B     IDENT          WS-CONTADOR
+   10:32   B     PALAVRA_CHAVE  PIC
+   10:36   B     PIC            9(3)
+   10:42   B     PALAVRA_CHAVE  VALUE
+   10:48   B     PALAVRA_CHAVE  ZERO
+   10:52   B     PONTO          .
+   11:8    A     PALAVRA_CHAVE  PROCEDURE
+   11:18   B     PALAVRA_CHAVE  DIVISION
+   11:26   B     PONTO          .
+   12:12   B     PALAVRA_CHAVE  MOVE
+   12:17   B     NUM            12345
+   12:23   B     PALAVRA_CHAVE  TO
+   12:26   B     IDENT          CLI-CODIGO
+   12:36   B     PONTO          .
+   13:12   B     PALAVRA_CHAVE  DISPLAY
+   13:20   B     ALFA           "CLIENTE: "
+   13:32   B     IDENT          CLI-CODIGO
+   13:42   B     PONTO          .
+   14:12   B     PALAVRA_CHAVE  STOP
+   14:17   B     PALAVRA_CHAVE  RUN
+   14:20   B     PONTO          .
+   15:1    B     EOF            

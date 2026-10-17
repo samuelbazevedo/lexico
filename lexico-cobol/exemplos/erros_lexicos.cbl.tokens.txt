@@ -1,0 +1,39 @@
+LINHA:COL  ÁREA  CATEGORIA      TEXTO
+------------------------------------------------------------
+    2:8    A     PALAVRA_CHAVE  IDENTIFICATION
+    2:23   B     PALAVRA_CHAVE  DIVISION
+    2:31   B     PONTO          .
+    3:8    A     PALAVRA_CHAVE  PROGRAM-ID
+    3:18   B     PONTO          .
+    3:20   B     IDENT          ERROS
+    3:25   B     PONTO          .
+    4:8    A     PALAVRA_CHAVE  PROCEDURE
+    4:18   B     PALAVRA_CHAVE  DIVISION
+    4:26   B     PONTO          .
+    5:12   B     PALAVRA_CHAVE  DISPLAY
+    5:20   B     ALFA           "LITERAL SEM FECHAR."
+    6:12   B     PALAVRA_CHAVE  MOVE
+    6:17   B     NUM            1
+    6:19   B     PALAVRA_CHAVE  TO
+    6:22   B     OP             -
+    6:23   B     IDENT          NOME-COM-HIFEN-
+    6:38   B     PONTO          .
+    7:12   B     PALAVRA_CHAVE  MOVE
+    7:17   B     NUM            1
+    7:19   B     PALAVRA_CHAVE  TO
+    7:22   B     IDENT          NOME-COM-MAIS-DE-TRINTA-CARACTERES-AQUI
+    7:61   B     PONTO          .
+    8:12   B     PALAVRA_CHAVE  MOVE
+    8:17   B     NUM            1234567890123456789
+    8:37   B     PALAVRA_CHAVE  TO
+    8:40   B     IDENT          X
+    8:41   B     PONTO          .
+    9:12   B     PALAVRA_CHAVE  DISPLAY
+    9:21   B     PONTO          .
+   11:12   B     PALAVRA_CHAVE  DISPLAY
+   11:20   B     ALFA           "INDICADOR INVALIDO NA COLUNA 7"
+   11:52   B     PONTO          .
+   12:12   B     PALAVRA_CHAVE  STOP
+   12:17   B     PALAVRA_CHAVE  RUN
+   12:20   B     PONTO          .
+   13:1    B     EOF            

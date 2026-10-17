@@ -1,0 +1,22 @@
+000100 IDENTIFICATION DIVISION.                                         FORMATO1
+000200 PROGRAM-ID. FORMATO.                                             FORMATO1
+000300*DEMONSTRA O LAYOUT DE COLUNAS DO FORMATO FIXO:                   FORMATO1
+000400*COLS 1-6 SEQUENCIA | 7 INDICADOR | 8-11 AREA A | 12-72 AREA B    FORMATO1
+000500*COLS 73-80: IDENTIFICACAO (DESPREZADA PELO COMPILADOR)           FORMATO1
+000600/'/' TAMBEM E COMENTARIO (SALTO DE PAGINA NA LISTAGEM)            FORMATO1
+000700 ENVIRONMENT DIVISION.                                            FORMATO1
+000800 CONFIGURATION SECTION.                                           FORMATO1
+000900 SOURCE-COMPUTER. PC-LINUX WITH DEBUGGING MODE.                   FORMATO1
+001000 DATA DIVISION.                                                   FORMATO1
+001100 WORKING-STORAGE SECTION.                                         FORMATO1
+001200 01  WS-MENSAGEM     PIC X(85).                                   FORMATO1
+001300 01  WS-ASPAS        PIC X(20) VALUE 'D''AGUA "OK"'.              FORMATO1
+001400 PROCEDURE DIVISION.                                              FORMATO1
+001500 MAIN-PARA.                                                       FORMATO1
+001600     MOVE "ESTE LITERAL ALFANUMERICO E LONGO E CRUZA A COLUNA 72, FORMATO1
+001700-        "CONTINUANDO NA LINHA SEGUINTE." TO WS-MENSAGEM.         FORMATO1
+001800     DISPLAY WS-MENSAGEM.                                         FORMATO1
+001900     DISPLAY WS-ASPAS.                                            FORMATO1
+002000D    DISPLAY "LINHA DE DEPURACAO (DEBUGGING MODE ATIVO)".         FORMATO1
+002100     DISPLAY 'FIM'; DISPLAY "SEPARADORES , E ; SAO ACEITOS".      FORMATO1
+002200     STOP RUN.                                                    FORMATO1

@@ -1,0 +1,69 @@
+LINHA:COL  ÁREA  CATEGORIA      TEXTO
+------------------------------------------------------------
+    1:8    A     PALAVRA_CHAVE  IDENTIFICATION
+    1:23   B     PALAVRA_CHAVE  DIVISION
+    1:31   B     PONTO          .
+    2:8    A     PALAVRA_CHAVE  PROGRAM-ID
+    2:18   B     PONTO          .
+    2:20   B     IDENT          FORMATO
+    2:27   B     PONTO          .
+    7:8    A     PALAVRA_CHAVE  ENVIRONMENT
+    7:20   B     PALAVRA_CHAVE  DIVISION
+    7:28   B     PONTO          .
+    8:8    A     PALAVRA_CHAVE  CONFIGURATION
+    8:22   B     PALAVRA_CHAVE  SECTION
+    8:29   B     PONTO          .
+    9:8    A     PALAVRA_CHAVE  SOURCE-COMPUTER
+    9:23   B     PONTO          .
+    9:25   B     IDENT          PC-LINUX
+    9:34   B     PALAVRA_CHAVE  WITH
+    9:39   B     PALAVRA_CHAVE  DEBUGGING
+    9:49   B     PALAVRA_CHAVE  MODE
+    9:53   B     PONTO          .
+   10:8    A     PALAVRA_CHAVE  DATA
+   10:13   B     PALAVRA_CHAVE  DIVISION
+   10:21   B     PONTO          .
+   11:8    A     PALAVRA_CHAVE  WORKING-STORAGE
+   11:24   B     PALAVRA_CHAVE  SECTION
+   11:31   B     PONTO          .
+   12:8    A     NUM            01
+   12:12   B     IDENT          WS-MENSAGEM
+   12:28   B     PALAVRA_CHAVE  PIC
+   12:32   B     PIC            X(85)
+   12:37   B     PONTO          .
+   13:8    A     NUM            01
+   13:12   B     IDENT          WS-ASPAS
+   13:28   B     PALAVRA_CHAVE  PIC
+   13:32   B     PIC            X(20)
+   13:38   B     PALAVRA_CHAVE  VALUE
+   13:44   B     ALFA           'D'AGUA "OK"'
+   13:58   B     PONTO          .
+   14:8    A     PALAVRA_CHAVE  PROCEDURE
+   14:18   B     PALAVRA_CHAVE  DIVISION
+   14:26   B     PONTO          .
+   15:8    A     IDENT          MAIN-PARA
+   15:17   B     PONTO          .
+   16:12   B     PALAVRA_CHAVE  MOVE
+   16:17   B     ALFA           "ESTE LITERAL ALFANUMERICO E LONGO E CRUZA A COLUNA 72, CONTINUANDO NA LINHA SEGUINTE."
+   17:49   B     PALAVRA_CHAVE  TO
+   17:52   B     IDENT          WS-MENSAGEM
+   17:63   B     PONTO          .
+   18:12   B     PALAVRA_CHAVE  DISPLAY
+   18:20   B     IDENT          WS-MENSAGEM
+   18:31   B     PONTO          .
+   19:12   B     PALAVRA_CHAVE  DISPLAY
+   19:20   B     IDENT          WS-ASPAS
+   19:28   B     PONTO          .
+   20:12   B     PALAVRA_CHAVE  DISPLAY
+   20:20   B     ALFA           "LINHA DE DEPURACAO (DEBUGGING MODE ATIVO)"
+   20:63   B     PONTO          .
+   21:12   B     PALAVRA_CHAVE  DISPLAY
+   21:20   B     ALFA           'FIM'
+   21:25   B     PONTO_VIRGULA  ;
+   21:27   B     PALAVRA_CHAVE  DISPLAY
+   21:35   B     ALFA           "SEPARADORES , E ; SAO ACEITOS"
+   21:66   B     PONTO          .
+   22:12   B     PALAVRA_CHAVE  STOP
+   22:17   B     PALAVRA_CHAVE  RUN
+   22:20   B     PONTO          .
+   23:1    B     EOF            
