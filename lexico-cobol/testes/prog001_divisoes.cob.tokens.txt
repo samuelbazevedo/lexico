@@ -1,0 +1,50 @@
+LINHA:COL  ÁREA  CATEGORIA      TEXTO
+------------------------------------------------------------
+   15:8    A     PALAVRA_CHAVE  IDENTIFICATION
+   15:23   B     PALAVRA_CHAVE  DIVISION
+   15:31   B     PONTO          .
+   16:8    A     PALAVRA_CHAVE  PROGRAM-ID
+   16:18   B     PONTO          .
+   16:20   B     IDENT          PROG0001
+   16:28   B     PONTO          .
+   19:8    A     PALAVRA_CHAVE  AUTHOR
+   19:14   B     PONTO          .
+   20:8    A     PALAVRA_CHAVE  INSTALLATION
+   20:20   B     PONTO          .
+   21:8    A     PALAVRA_CHAVE  DATE-WRITTEN
+   21:20   B     PONTO          .
+   22:8    A     PALAVRA_CHAVE  DATE-COMPILED
+   22:21   B     PONTO          .
+   23:8    A     PALAVRA_CHAVE  SECURITY
+   23:16   B     PONTO          .
+   24:8    A     PALAVRA_CHAVE  REMARKS
+   24:15   B     PONTO          .
+   27:8    A     PALAVRA_CHAVE  ENVIRONMENT
+   27:20   B     PALAVRA_CHAVE  DIVISION
+   27:28   B     PONTO          .
+   29:8    A     PALAVRA_CHAVE  CONFIGURATION
+   29:22   B     PALAVRA_CHAVE  SECTION
+   29:29   B     PONTO          .
+   37:8    A     PALAVRA_CHAVE  INPUT-OUTPUT
+   37:21   B     PALAVRA_CHAVE  SECTION
+   37:28   B     PONTO          .
+   46:8    A     PALAVRA_CHAVE  DATA
+   46:13   B     PALAVRA_CHAVE  DIVISION
+   46:21   B     PONTO          .
+   53:8    A     PALAVRA_CHAVE  PROCEDURE
+   53:18   B     PALAVRA_CHAVE  DIVISION
+   53:26   B     PONTO          .
+   54:8    A     IDENT          MAIN-PROCEDURE
+   54:22   B     PONTO          .
+   55:13   B     PALAVRA_CHAVE  DISPLAY
+   55:21   B     ALFA           "Hello world"
+   56:13   B     PALAVRA_CHAVE  display
+   56:21   B     ALFA           "Enio Basso - 2"
+   57:13   B     PALAVRA_CHAVE  STOP
+   57:18   B     PALAVRA_CHAVE  RUN
+   57:21   B     PONTO          .
+   58:8    A     PALAVRA_CHAVE  END
+   58:12   B     PALAVRA_CHAVE  PROGRAM
+   58:20   B     IDENT          PROG0001
+   58:28   B     PONTO          .
+   59:1    B     EOF            
